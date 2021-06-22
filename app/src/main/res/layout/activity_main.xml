@@ -12,7 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:textColor="@color/teal_700"
+        android:textStyle="italic"/>
 
     <EditText
         android:id="@+id/userNameInput"
@@ -35,7 +37,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter" />
-
 
 
 </LinearLayout>
