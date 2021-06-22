@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
         submitButton.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
-            Login(username, password)
+            login(username, password)
         }
     }
 
-    private fun Login(username: String, password: String) {
+    private fun login(username: String, password: String) {
         if (isValidCredentials(username, password)){
             val intent: Intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("name", username)
