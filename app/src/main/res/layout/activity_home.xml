@@ -16,4 +16,16 @@
         android:text="login"
         android:textSize="40dp" />
 
+    <Button
+        android:id="@+id/submitButtonInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter" />
+
+    Button
+    android:id="@+id/submitButtonInput"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="To For Me" />
+
     </LinearLayout>
